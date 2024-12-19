@@ -1,0 +1,189 @@
+/* your styles go here */
+
+/* COMMON */
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    background-color: #E9E6DF;
+}
+
+@media (min-width: 992px) {
+    section {
+        padding: 40px 0 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    section {
+        padding: 30px 0 30px 0;
+    }
+}
+
+.bg-center {
+  margin-bottom: 0;
+}
+
+a {
+    color: #2A75A5;
+}
+
+a:hover {
+    color: #2A75A5;
+}
+
+/* NAVBAR */
+
+.navbar,
+.navbar.active {
+  padding-top: 1rem !important;
+  padding-bottom: 0.5rem !important;
+  background: #E9E6DF;
+}
+
+.nav-link {
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.nav-link.active,
+.nav-link:focus {
+    color: #2A75A5;
+}
+
+.nav-link:hover {
+    color: #2A75A5;
+    border-color: #2A75A5;
+}
+
+.scroll-top-btn {
+    background: #2A75A580;
+}
+.scroll-top-btn:hover,
+.scroll-top-btn:focus {
+    background: #2A75A5;
+}
+
+/* BUTTONS */
+
+.btn {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 0.9rem;
+    font-weight: 900;
+    border: 2px solid transparent;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #2A75A5;
+    border-color: #2A75A5;
+}
+
+.btn-primary:hover {
+    background-color: #2A75A5;
+    border-color: #2A75A5;
+}
+
+.btn-secondary {
+    color: #2A75A5;
+    background-color: #E9E6DF;
+    border-color: #2A75A5;
+}
+
+.btn-secondary:hover {
+    background-color: #2A75A5;
+    border-color: #2A75A5;
+    color: #FCFFFF;
+}
+
+/* TYPE */
+
+h1, .h1 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 42px;
+    line-height: 52px;
+    font-feature-settings: 'ss01' off;
+}
+
+
+h2, .h2 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 32px;
+    line-height: 45px;
+}
+
+h3, .h3 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+h4, .h4 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+/* HOME */
+
+.device-background {
+  background-image: url("../img/device-background.svg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 60%;
+  z-index: -1;
+}
+
+.device-wrapper {
+  max-width: 300px;
+}
+
+/* WHAT & WHY */
+
+.pattern-image {
+  max-width: 320px;
+}
+
+@media (max-width: 576px) {
+    .pattern-image {
+        display: block;
+        max-height: 120px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* CODE TYPES */
+
+.code-type {
+    font-size: 40px;
+    padding: 20px;
+    background: #F5F5F5;
+    border-radius: 50%;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color:  #434B53;
+}
+
+.footer-link:hover {
+    color:  #2A75A5;
+}
